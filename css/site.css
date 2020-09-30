@@ -11,7 +11,9 @@ body {
 /* Utilities */
 .vertical-center {
     min-height: 100%;
-    min-height: 95vh; 
+    min-height: 100vh;
+    min-width: 100%;
+    min-width: 100vw;
     display: flex;
     align-items: center;
   }
@@ -41,9 +43,9 @@ body {
     font-size: 10rem;
 }
 /* Media Query for mobile */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .hero-text {
-        font-size: 3.7rem;
+        font-size: 3rem;
     }
     .action-text{
         font-size: 1rem;
