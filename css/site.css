@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* Navbar */
+/* Hero */
+.usa-gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(215,116,116,1) 0%, rgba(0,212,255,1) 100%);
+}
+/* Utilities */
+.vertical-center {
+    min-height: 100%;
+    min-height: 95vh; 
+    display: flex;
+    align-items: center;
+  }
+  .text-center {
+ text-align: center!important;   
+}
+/* Text */
+.blue-underline {
+    text-decoration: underline;
+    text-decoration-color: #007bff;
+}
+.red-underline {
+    text-decoration: underline;
+    text-decoration-color: #dc3545;
+}
+.action-text{
+    font-size: 2rem;
+}
+.lead-text {
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.hero-text {
+    color: whitesmoke;
+    text-decoration: dodgerblue;
+    font-size: 10rem;
+}
+/* Media Query for mobile */
+@media only screen and (max-width: 400px) {
+    .hero-text {
+        font-size: 3.7rem;
+    }
+    .action-text{
+        font-size: 1rem;
+    }
+    .lead-text {
+        color: whitesmoke;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
